@@ -19,4 +19,29 @@
 //        NOTE: Do not add a main method to the solution code.
 
 public class EvenDigitSum {
+    public static void main(String[] args) {
+        System.out.println(getEvenDigitSum(123456789));
+    }
+
+    public static int getEvenDigitSum(int number){
+        int lastDigit = 0;
+        int sum = 0;
+
+        if (number<0){
+            return -1;
+        }
+
+        do{
+            lastDigit = number % 10;
+            number /= 10;
+            if(lastDigit%2==0){
+                sum += lastDigit;
+            }
+        } while (number/10 >0);
+
+        if (number%2 == 0){
+            return sum + number;
+        }
+        return sum;
+    }
 }

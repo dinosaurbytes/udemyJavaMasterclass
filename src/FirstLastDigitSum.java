@@ -20,11 +20,11 @@
 //        NOTE: The method sumFirstAndLastDigit needs to be defined as public static like we have been doing so far in the course.
 //
 //        NOTE: Do not add a  main method to solution code.
-public class FirstLastDigitSum {
-    public static void main(String[] args) {
-
-    }
-    public static int sumFirstAndLastDigit(int number){
-
-    }
-}
+//public class FirstLastDigitSum {
+//    public static void main(String[] args) {
+//
+//    }
+//    public static int sumFirstAndLastDigit(int number){
+//
+//    }
+//}
